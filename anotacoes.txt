@@ -1,2 +1,14 @@
 Fazer uma parte de calculadora que calcula seu imc e etc usando script e js
 Fazer um joguinho usando js
+
+Fazer uma animção no footer de cor ficar mudando rbg
+
+footer{
+    background-color: red;
+}
+
+footer:(procurar o q é){
+    transition-property: background-color;
+    transition-duration: 2s;
+    background-color: aqua;
+}
