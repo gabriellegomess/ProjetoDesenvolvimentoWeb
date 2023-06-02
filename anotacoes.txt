@@ -12,3 +12,23 @@ footer:(procurar o q é){
     transition-duration: 2s;
     background-color: aqua;
 }
+
+@keyframes rgb {
+    0% {
+        background-color: aqua;
+    }
+    30%{
+        background-color: black;
+    }
+    80%{
+        background-color: blueviolet;
+    }
+}
+
+button{
+    animation-name: rgb;
+    animation-duration: 2ms ou 2s;
+    animation-delay: 1s; so cmç dps de 1 segundo na pagina
+    animation-iteration-count: infinite; //troca de cor infinimtamente
+    
+}
