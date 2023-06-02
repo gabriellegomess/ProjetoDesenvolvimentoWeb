@@ -1,0 +1,2 @@
+Fazer uma parte de calculadora que calcula seu imc e etc usando script e js
+Fazer um joguinho usando js
