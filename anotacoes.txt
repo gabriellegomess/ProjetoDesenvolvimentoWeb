@@ -25,6 +25,12 @@ footer:(procurar o q é){
     }
 }
 
+button:hover{
+    transition-property: background-color;
+    transition-duration: 2s;
+    background-color: aqua;
+}
+
 button{
     animation-name: rgb;
     animation-duration: 2ms ou 2s;
@@ -32,3 +38,20 @@ button{
     animation-iteration-count: infinite; //troca de cor infinimtamente
     
 }
+
+
+ ● Contato: Dentre as 6 páginas mínimas, deve existir uma página decontato, identificando quem é você (usada para dar nota depois).
+ ● CSS:CSS externo, !!!deve existir pelo menos umestilo interno e um inline.
+ ● Vídeo: Seu site deve apresentar ao menos 1 vídeo, seja local ouimportado de sites como o YouTube. 
+ ● Imagens: Seu site deve apresentar ao menos 5 figuras, ao menos 3 delasdevem ser locais (estar na pasta do seu projeto).
+ ● Tabelas: Seu site deve apresentar ao menos 1 tabela.
+ ● Menu: Deve existir um menu para transitar entre suas páginas.
+ ● Flex: O flex deve ser utilizado ao menos uma vez para posicionar seuselementos.
+ ● Grid: O grid deve ser utilizado ao menos uma vez para posicionar seuselementos.
+● Transições: Deve existir ao menos uma transição em seu site. (na dúvida implemente transições nos botões do menu).
+● Animações: Deve existir ao menos uma animação em seu site.
+● Responsividade: Seu site deve ser responsivo, funcionando para dispositivos de diferentes tamanhos. Considere o menor tamanhopossível como 200px. (caso não seja possível, defina um tamanho mínimoe evite que o site quebre com menos que isso...)
+● Boas práticas: Seu código deve seguir as boas práticas, utilizar tagssemânticas e utilizar tags para definir as partes da página (header,main/section/article, aside, footer, ...)
+● Modelo BOX: É necessário utilizar ao menos uma vez (cada uma) daspropriedades do modelo BOX (width, height, padding, border e margin).
+● Modo escuro: Deve existir ao menos um botão para, utilizando JS, alteraras propriedades da página para um modo escuro (e depois voltar aomodo normal ao apertar novamente).
+● Easter egg: Deve existir ao menos 1 easter egg em sua página. Por exemplo, uma combinação de elementos que, se apertados em ordem,mostram alguma mensagem ou criam um novo elemento na página
