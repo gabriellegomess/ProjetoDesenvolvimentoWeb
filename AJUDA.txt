@@ -1,2 +1,3 @@
+Como tirar aquele sublinha que fica nos links do footer
 Refazer o JS de acotar --> para que as imagens fiquem visiveis caso o usuário queira e invisiveis caso não queira
 Refazer o JS de acotar --> para o usuario que escolheu nao ver a imagem, tem como ele vizualizar sem ela tem aquele espaço em branco gigantesco?
