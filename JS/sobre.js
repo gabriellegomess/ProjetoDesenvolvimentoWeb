@@ -8,4 +8,3 @@ titulo.addEventListener('mouseenter', function() {
 titulo.addEventListener('mouseleave', function() {
   expandableDiv.classList.remove('expanded');
 });
-
