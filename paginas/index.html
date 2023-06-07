@@ -5,6 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.｡.:*✧ A Mágia dos Livros ♡･ﾟ:*｡.:*･ﾟ</title>
+    
+
+     <!-- MENSAGEM SECRETA -->
+    <style>
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 100px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            display: none; /* Inicia oculto */
+            /*animação rgb*/
+            animation-name: rgb;
+            animation-duration: 7s;
+            animation-delay: 0s; 
+            animation-iteration-count: infinite; 
+            color: black;
+        }
+
+        @keyframes rgb {
+    0% {
+        background-color: rgb(245, 233, 212);;
+    }
+    20%{
+        background-color: rgb(255, 217, 92);
+    }
+    40%{
+        background-color: rgb(167, 92, 236);
+    }
+    60%{
+        background-color: rgb(92, 236, 167);
+    }
+    80%{
+        background-color: rgb(235, 95, 95);
+    }
+    100%{
+        background-color: rgb(245, 233, 212);
+    }
+}
+
+.dark-mode {
+            background-color: #333; /* Cor de fundo do modo escuro */
+            background-image: url(../img/paginas/darkMode.jpeg);
+                       
+}
+
+.dark-mode div{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(241, 97, 241, 0.158);
+    color:rgba(239, 245, 245, 0.918);
+    /* sombra pra direita, sombra pra baixo, fundo, cor  */
+    text-shadow: 2px 2px 4px rgba(15, 15, 15, 0.5);
+    border-radius: 20px;   
+}
+
+.dark-mode .genero{
+    background-color: rgba(14, 62, 102, 0.705);
+    text-shadow: 2px 2px 4px rgba(14, 13, 13, 0.932);
+    color:rgb(240, 229, 229);
+}
+
+.dark-mode .imagemFundo{
+    background-image: url(../img/paginas/backgourndMagia.jpeg);
+
+}
+
+.dark-mode footer{
+    background-color: rgba(14, 62, 102, 0.705);
+}
+
+.dark-mode a:hover{
+    color:white;
+}
+
+
+    </style>
+
+
 </head>
 <body>
 
@@ -14,7 +97,7 @@
     <header>        
         <nav>
             <!-- css inline -->
-            <p style ="font-size: 25px;" > UNIVERSOS LITERÁRIOS</p>
+            <p style ="font-size: 25px; font-style: oblique; text-shadow: 2px 2px 4px black; " > UNIVERSOS LITERÁRIOS</p>
             &nbsp; &nbsp; &nbsp;<a href="livros/acotar.html" target="_blank">✧ Corte de Espinhos e Rosas ✧ </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <a href="livros/cc.html" target="_blank">☾ Cidade da Lua Crescente ☽ </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             <a href="livros/shadow.html" target="_blank">➼ Caçadores de Sombras ➷ </a> <!-- colocar a imagezinha de uma Runna e de cada simbolo (do cc e de acotar, colocar essas mini imagem)--> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -23,9 +106,17 @@
         </nav>   
     </header>
 
+    <!-- MENSAGEM SECRETA -->
+    <div class="popup" id="popupMensagem">
+        <img src="../img/paginas/stargit.gif" alt="gif de estrelas"  style="height: 100px;" width="150px">
+        <p>Parabéns você encontrou nossa Mensagem secreta!</p>
+        <p> Será que existem outras por ai?</p>
+        <img src="../img/paginas/gif.gif" alt="gif da mensagem" style="height: 100px;" width="150px">
+    </div>
+
    <div> 
     
-        <h1>.｡.:*✧ A Mágia dos Livros ♡･ﾟ:*｡.:*･ﾟ</h1> <br>
+        <h1 id="mensagem">.｡.:*✧ A Mágia dos Livros ♡･ﾟ:*｡.:*･ﾟ</h1> <br>
 
         <p> ✨ Os livros desde sempre estiveram presentes na vida das pessoas, desde aprendizado, desenvolvimento, receitas, até apenas por puro Hobby ✨</p>
         <p> 📚 Este site é para os amantes da leitura e aqueles que desejam conhece-lá melhor 📚 </p>
@@ -80,8 +171,10 @@
         <h4> ══════════════ •『 ♡ 』• ══════════════</h4>
     </div>
 
-    <div>
+    <br> <br>
 
+<div class="imagemFundo">
+<div class = "genero">
         <h2> 📍 Como descobrir seu gênero literário preferido 📍 </h2>
         <ul type="circle">
             <li> Descobrir o gênero literário que mais te atrai pode levar algum tempo e diversas experimentações. Pode ser uma jornada pessoal e única.  </li>
@@ -117,7 +210,7 @@
         <h4> ══════════════ •『 ♡ 』• ══════════════</h4>
     </div>
 
-    <div>
+    <div class = "genero">
         <h2> 📍 Onde encontrar indicações do seu gênero favorito 📍 </h2>
     <p> ● Existem diversos modos que te ajudam a encontrar as melhores indicações e histórias para você, após encontrar essas indicações leia a sinopse do livro para ver se é algo que realmente te agrada.</p>
     <h4 style = "font-size: large;"> 📱 Redes Sociais 📱 </h4>
@@ -128,11 +221,33 @@
 
     <h4> ══════════════ •『 ♡ 』• ══════════════</h4>
     </div>
-
+</div>
     <footer>
-        <a href="sobre.html" target="_blank">📍 Sobre 📍 </a> <br> <hr>
-        <a href="contato.html" target="_blank">📍 Contato 📍 </a> <br> <hr>
+        <a href="sobre.html" target="_blank">📍 Sobre 📍 </a> 
+        <a href="contato.html" target="_blank">📍 Contato 📍 </a> 
     </footer>
+
+
+     <!-- MENSAGEM SECRETA -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() { 
+            var titulo = document.querySelector('h1'); // Seleciona o elemento <h1> e o armazena na variável 'titulo'
+            var popup = document.getElementById('popupMensagem'); // Recupera o elemento com o ID 'popupMensagem' e o armazena na variável 'popup'
+
+            titulo.addEventListener('click', function() {
+                popup.style.display = 'block'; // Exibe o popup ao clicar no título
+            });
+
+            popup.addEventListener('click', function() {
+                popup.style.display = 'none'; // Oculta o popup ao clicar nele
+            });
+        });
+    </script>
+
+    <button onclick="toggleDarkMode()">! ALTERNAR MODO !</button>
+
+    <script src="../JS/index.js"></script>
 
 </body>
 </html>

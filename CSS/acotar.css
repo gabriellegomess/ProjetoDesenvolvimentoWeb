@@ -4,8 +4,8 @@
 
 body{
     background-image: url(../img/acotar/background.jpeg);
-   background-size: cover;
-   background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
    /* background-position: center; */
     background-attachment: fixed;
 }

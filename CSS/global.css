@@ -5,7 +5,7 @@ header{
     height: 15vh;
     animation-name: rgb;
     animation-duration: 7s;
-    animation-delay: 1s; 
+    animation-delay: 0s; 
     animation-iteration-count: infinite; 
     border-radius: 80px;
     font-size: x-large;
@@ -37,3 +37,30 @@ img{
     height: 400px;
     width: 400px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style:italic;
+  }
+
+footer{
+    background-color: rgba(193, 241, 231, 0.644);
+    margin-top: 50px;
+    padding: 15px;
+    height: 15vh;
+    border-radius: 5px;
+    animation-name: footer;
+    animation-duration: 5s;
+    animation-delay: 0s; 
+    animation-iteration-count: infinite; 
+    font-size: x-large;
+    text-align: center;
+}
+
+footer a:hover{
+    color: white;
+}
+
+
+
