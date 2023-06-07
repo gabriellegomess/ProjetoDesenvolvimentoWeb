@@ -31,11 +31,15 @@ Páginas: Seu site deve apresentar ao menos 6 páginas com conteúdos eobjetivos
  
  ● Animações: Deve existir ao menos uma animação em seu site.
  
- ● Responsividade: Seu site deve ser responsivo, funcionando para dispositivos de diferentes tamanhos. Considere o menor tamanho possível como 200px. (caso não seja possível, defina um tamanho mínimo e evite que o site quebre com menos que isso...)● Boas práticas: Seu código deve seguir as boas práticas, utilizar tagssemânticas e utilizar tags para definir as partes da página (header,main/section/article, aside, footer, ...)
+ ● Responsividade: Seu site deve ser responsivo, funcionando para dispositivos de diferentes tamanhos. Considere o menor tamanho possível como 200px. (caso não seja possível, defina um tamanho mínimo e evite que o site quebre com menos que isso...)
+ 
+ ● Boas práticas: Seu código deve seguir as boas práticas, utilizar tagssemânticas e utilizar tags para definir as partes da página (header,main/section/article, aside, footer, ...)
  
  ● Comentários: Seu código deve ser comentado para fácil compreensão.
  
- ● Modelo BOX: É necessário utilizar ao menos uma vez (cada uma) daspropriedades do modelo BOX (width, height, padding, border e margin).● Modo escuro: Deve existir ao menos um botão para, utilizando JS, alterar as propriedades da página para um modo escuro (e depois voltar aomodo normal ao apertar novamente).
+ ● Modelo BOX: É necessário utilizar ao menos uma vez (cada uma) daspropriedades do modelo BOX (width, height, padding, border e margin).
+ 
+ ● Modo escuro: Deve existir ao menos um botão para, utilizando JS, alterar as propriedades da página para um modo escuro (e depois voltar aomodo normal ao apertar novamente).
  
  ● Easter egg: Deve existir ao menos 1 easter egg em sua página. Por exemplo, uma combinação de elementos que, se apertados em ordem,mostram alguma mensagem ou criam um novo elemento na página.
 

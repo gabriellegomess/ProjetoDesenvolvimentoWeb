@@ -1,3 +1,30 @@
-div{
-    
+.sobre{
+    border: 2px black solid;
+    margin-top: 50px;
+    text-align: justify;
+    justify-content: center;
+    font-size: 17px;
 }
+
+
+h1,h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.expandable ul {
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, opacity 0.5s;
+  }
+  
+  .expandable.expanded ul {
+    visibility: visible;
+    max-height: 500px; /* ajuste a altura máxima desejada */
+    opacity: 1;
+  }
