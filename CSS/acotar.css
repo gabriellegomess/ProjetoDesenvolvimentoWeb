@@ -1,11 +1,65 @@
+header{
+    margin-top: 10px;
+    padding: 10px;
+    height: 15vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation-name: acotar;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    border-radius: 5px;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgba(122, 61, 236, 0.575);
+}
+
+@keyframes acotar {
+    0%{
+        background-color: rgba(122, 61, 236, 0.575);
+    }
+    100%{
+        background-color: rgba(129, 69, 241, 0.575);
+    }
+}
+
 .acotar{
     visibility: visible;
 }
 
 body{
-    background-image: url(../img/acotar/background.jpeg);
+  /*  background-image: url(../img/acotar/background.jpeg);*/
+    background-color: rgba(204, 146, 243, 0.425);
     background-size: cover;
     background-repeat: no-repeat;
    /* background-position: center; */
     background-attachment: fixed;
 }
+
+div{
+    text-align: center;
+    justify-content: center;
+    /*background-color: rgba(174, 247, 247, 0.671);*/
+    color:rgb(2, 2, 2);
+    /* sombra pra direita, sombra pra baixo, fundo, cor  */
+    text-shadow: 2px 2px 4px rgba(243, 238, 238, 0.884);
+    border-radius: 20px;    
+    font-size: 17px;
+}
+
+.intro{
+    text-align: left;
+    font-size: medium;
+    font-size: 17px;
+}
+
+li{
+    text-align: left;
+    font-size: medium;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 17px;
+}
+
