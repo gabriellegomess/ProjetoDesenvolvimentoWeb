@@ -40,9 +40,7 @@ button{
 
 ● Vídeo: Seu site deve apresentar ao menos 1 vídeo, seja local ouimportado de sites como o YouTube. 
 ● Tabelas: Seu site deve apresentar ao menos 1 tabela.
-● Flex: O flex deve ser utilizado ao menos uma vez para posicionar seuselementos.
 ● Grid: O grid deve ser utilizado ao menos uma vez para posicionar seuselementos.
 ● Transições: Deve existir ao menos uma transição em seu site. (na dúvida implemente transições nos botões do menu).
 ● Responsividade: Seu site deve ser responsivo, funcionando para dispositivos de diferentes tamanhos. Considere o menor tamanhopossível como 200px. (caso não seja possível, defina um tamanho mínimoe evite que o site quebre com menos que isso...)
-● Modo escuro: Deve existir ao menos um botão para, utilizando JS, alteraras propriedades da página para um modo escuro (e depois voltar aomodo normal ao apertar novamente).
 Fazer um joguinho usando js

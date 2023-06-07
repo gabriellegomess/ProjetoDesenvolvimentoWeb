@@ -11,6 +11,10 @@ header{
     font-size: x-large;
     text-align: center;
     background-color: rgba(122, 61, 236, 0.575);
+    background-image: url(../img/ACOTAR/header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @keyframes acotar {
@@ -26,9 +30,19 @@ header{
     visibility: visible;
 }
 
+ol {
+    text-align: left;
+  }
+
+  
+ul {
+    text-align: left;
+  }
+
+
 body{
-  /*  background-image: url(../img/acotar/background.jpeg);*/
-    background-color: rgba(204, 146, 243, 0.425);
+    background-image: url(../img/acotar/background.jpeg);
+    /*background-color: rgba(204, 146, 243, 0.425); */
     background-size: cover;
     background-repeat: no-repeat;
    /* background-position: center; */
@@ -63,3 +77,48 @@ p{
     font-size: 17px;
 }
 
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(1, 5fr); /* Alterado para 5 colunas */
+    grid-gap: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+footer{
+    background-color: rgba(217, 171, 248, 0.644);
+    margin-top: 50px;
+    padding: 15px;
+    height: 15vh;
+    border-radius: 5px;
+    animation-name: footer;
+    animation-duration: 5s;
+    animation-delay: 0s; 
+    animation-iteration-count: infinite; 
+    font-size: x-large;
+    text-align: center;
+    
+}
+
+footer a:hover{
+    color: white;
+}
+
+/* alinha as imagens ao lado do texto, se tirar elas ficam embaixo dos titulos */
+.item {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+  }
+  
+  .imagens {
+    margin-left: 10px;
+  }
+
+  ol {
+    text-align: left;
+  }
+
+  ul {
+    text-align: left;
+  }
