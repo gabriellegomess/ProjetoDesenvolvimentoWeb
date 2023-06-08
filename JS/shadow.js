@@ -1,0 +1,1 @@
+alert("ALERTA DE SPOILER!");
