@@ -42,4 +42,5 @@ button{
 ● Tabelas: Seu site deve apresentar ao menos 1 tabela.
 ● Grid: O grid deve ser utilizado ao menos uma vez para posicionar seuselementos.
 ● Responsividade: Seu site deve ser responsivo, funcionando para dispositivos de diferentes tamanhos. Considere o menor tamanhopossível como 200px. (caso não seja possível, defina um tamanho mínimoe evite que o site quebre com menos que isso...)
+● Seu site deve apresentar comentarios
 Fazer um joguinho usando js
