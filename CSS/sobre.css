@@ -28,3 +28,9 @@ p{
     max-height: 500px; /* ajuste a altura máxima desejada */
     opacity: 1;
   }
+
+  body{
+    background-color: rgba(248, 233, 165, 0.5); /* Cor de fundo com opacidade de 0.5 */
+    
+  }
+
