@@ -1,0 +1,43 @@
+table{
+    border: 5px black solid;
+    border-spacing: 10px; /* espaçamento da borda */
+    margin-left: 36.5%;
+    background-color: rgba(207, 112, 216, 0.719);
+}
+
+td {
+    padding: 10px; /*  espaçamento interno */
+  }
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: url(../img/paginas/backgroundContato.png);
+    background-size: cover; /*tamhno*/
+    background-repeat: no-repeat; /*n repetir ao descer*/
+    background-attachment: fixed; /*n se mexer ao mover*/
+}
+
+footer{
+    animation-name: rgb;
+    animation-duration: 7s;
+    animation-delay: 0s; 
+    animation-iteration-count: infinite; 
+    border-radius: 80px;
+    opacity: 80%;
+    margin-top:17%
+    
+}
+
+header{
+    opacity: 80%;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+
+}
+
