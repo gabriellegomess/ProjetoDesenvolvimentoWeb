@@ -1,12 +1,16 @@
 body{
     background-image: url(../img/paginas/backgourndMagia.jpeg);
     transition: background-color 0.3s ease;
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o body */
+    background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
+    background-blend-mode: overlay; /* Mescla a cor de fundo com a imagem */
 }
 
 div{
     text-align: center;
     justify-content: center;
-    background-color: rgba(97, 174, 241, 0.158);
+    background-color: rgba(14, 62, 102, 0.705);
     color:rgba(240, 248, 255, 0.842);
     /* sombra pra direita, sombra pra baixo, fundo, cor  */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -24,14 +28,14 @@ p{
 }
 
 .genero{
-    background-color: rgba(193, 217, 252, 0.705);
-    text-shadow: 2px 2px 4px rgba(238, 231, 231, 0.932);
-    color:rgb(19, 18, 18);
+    background-color: rgba(14, 62, 102, 0.705);
+    color:rgba(240, 248, 255, 0.842);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+/*
 .imagemFundo{
     background-image: url(../img/paginas/backgourndLivrosOutrono.jpeg);
-}
+}*/
 
 button{
     transition-property: background-color;
