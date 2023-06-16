@@ -19,6 +19,8 @@ fazer espaçamento no footer e no header, tirar o &nsbp pq precisa da Responsivi
 
 Na Responsividade começa do menor para o maior, o maior sempre no final para ser o ultimo a rodar
 
+//isplay nas imagens pra mostrar sem espaço 
+//colocar o dark mode nas outras
 
 
 
