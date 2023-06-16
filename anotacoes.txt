@@ -48,6 +48,8 @@ Fazer um joguinho usando js
 TAMANHO DA TELA DA SALA 
 1109px 625px
 
+fazer espaçamento no footer e no header, tirar o &nsbp pq precisa da Responsividade
+
 Na Responsividade começa do menor para o maior, o maior sempre no final para ser o ultimo a rodar
 
   for( console.log("Iniciando"), i = 0, j = 2, k = 5; 
