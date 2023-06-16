@@ -50,3 +50,9 @@ TAMANHO DA TELA DA SALA
 
 Na Responsividade começa do menor para o maior, o maior sempre no final para ser o ultimo a rodar
 
+  for( console.log("Iniciando"), i = 0, j = 2, k = 5; 
+         console.log("Iteração"), i < lista_paragrafos.length; 
+         i++, console.log("Fim do for")) {
+                    
+        
+    }
