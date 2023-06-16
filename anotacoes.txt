@@ -1,49 +1,16 @@
-Fazer uma parte de calculadora que calcula seu imc e etc usando script e js
-Fazer um joguinho usando js
-
-Fazer uma animção no footer de cor ficar mudando rbg
-
-footer{
-    background-color: red;
-}
-
-footer:(procurar o q é){
-    transition-property: background-color;
-    transition-duration: 2s;
-    background-color: aqua;
-}
-
-@keyframes rgb {
-    0% {
-        background-color: aqua;
-    }
-    30%{
-        background-color: black;
-    }
-    80%{
-        background-color: blueviolet;
-    }
-}
-
 button:hover{
     transition-property: background-color;
     transition-duration: 2s;
     background-color: aqua;
 }
 
-button{
-    animation-name: rgb;
-    animation-duration: 2ms ou 2s;
-    animation-delay: 1s; so cmç dps de 1 segundo na pagina
-    animation-iteration-count: infinite; //troca de cor infinimtamente 
-}
-
 
 ● Vídeo: Seu site deve apresentar ao menos 1 vídeo, seja local ou importado de sites como o YouTube. 
 ● Seu site deve apresentar comentarios
 ● Responsividade: Seu site deve ser responsivo, funcionando para dispositivos de diferentes tamanhos. Considere o menor tamanhopossível como 200px. (caso não seja possível, defina um tamanho mínimoe evite que o site quebre com menos que isso...) 
-qualquer coisa faz os tamanhos dos pixeis dentro de cada media
+--> qualquer coisa faz os tamanhos dos pixeis dentro de cada media
 Fazer um joguinho usando js
+
 
 TAMANHO DA TELA DA SALA 
 1109px 625px
@@ -52,9 +19,24 @@ fazer espaçamento no footer e no header, tirar o &nsbp pq precisa da Responsivi
 
 Na Responsividade começa do menor para o maior, o maior sempre no final para ser o ultimo a rodar
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Colocar na pasta de comentários (deixar salvo no final) 
+
   for( console.log("Iniciando"), i = 0, j = 2, k = 5; 
          console.log("Iteração"), i < lista_paragrafos.length; 
          i++, console.log("Fim do for")) {
                     
         
-    }
+}

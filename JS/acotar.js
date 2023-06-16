@@ -5,5 +5,5 @@ alert("ALERTA DE SPOILER");
 let escolha = confirm("Você aceita ver todas as imagens da página?");
 
 if(escolha) {
-    document.querySelector(".acotar").style.visibility = "hidden";
+    document.querySelector(".acotar").style.visibility = "visible";
 }
