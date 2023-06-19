@@ -13,4 +13,7 @@ Na Responsividade começa do menor para o maior, o maior sempre no final para se
 ● CSS inline no index.html aproximadamente na linha 222 e no sobre.html 133
 ● Css interno no contato.html 
 ● Grid no css de acotar.css e cc.css
-● flex no css de cc 
+● Flex no css de cc 
+● Transição nos requisitos do projeto 
+● Animação nas mensagens secretas e no header
+● Vídeo no shadow.html
