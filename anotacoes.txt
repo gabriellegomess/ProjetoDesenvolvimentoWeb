@@ -9,15 +9,8 @@ fazer espaçamento no footer e no header, tirar o &nsbp pq precisa da Responsivi
 
 Na Responsividade começa do menor para o maior, o maior sempre no final para ser o ultimo a rodar
 
-CSS inline no index aprox na linha 222 e no sobre 133
-Css interno no contato
-Grid no css de acotar e css
-flex no css de cc 
 
-//Colocar na pasta de comentários (deixar salvo no final) 
-
-  for( console.log("Iniciando"), i = 0, j = 2, k = 5; 
-         console.log("Iteração"), i < lista_paragrafos.length; 
-         i++, console.log("Fim do for")) {
-                    
-}
+● CSS inline no index.html aproximadamente na linha 222 e no sobre.html 133
+● Css interno no contato.html 
+● Grid no css de acotar.css e cc.css
+● flex no css de cc 
