@@ -1,17 +1,20 @@
+/*organizando o css global*/
+/*header com a animação rgb infinita*/
 header{
     margin-top: 20px;
     margin-left: 1px; 
     margin-right: 1px;
     height: 15vh;
-    animation-name: rgb;
+    animation-name: rgb; /*nome da animação*/
     animation-duration: 7s;
     animation-delay: 0s; 
-    animation-iteration-count: infinite; 
+    animation-iteration-count: infinite; /*animação loop*/
     border-radius: 80px;
     font-size: x-large;
     text-align: center;
 }
 
+/*animação mudando de cor*/
 @keyframes rgb {
     0% {
         background-color: rgb(245, 233, 212);;
@@ -33,6 +36,7 @@ header{
     }
 } 
 
+/*altura e largura das iamgens globalmente*/
 img{
     height: 400px;
     width: 400px;
@@ -44,6 +48,7 @@ a {
     font-style:italic;
   }
 
+  /*definindo um footer global, com a animação footer, em loop*/
 footer{
     background-color: rgba(193, 241, 231, 0.644);
     margin-top: 50px;
@@ -59,7 +64,7 @@ footer{
 }
 
 footer a:hover{
-    color: white;
+    color: white; /*fonte fica branca qnd o mouse ta em cima*/
 }
 
 

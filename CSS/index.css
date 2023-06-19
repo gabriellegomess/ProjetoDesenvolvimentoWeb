@@ -6,17 +6,17 @@ body{
     background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
     background-blend-mode: overlay; /* Mescla a cor de fundo com a imagem */
 }
-
+/*organizando as divs, cores, tamanhos, posicionamentos e alinhamentos, sombras e bordas*/
 div{
     text-align: center;
     justify-content: center;
     background-color: rgba(14, 62, 102, 0.705);
     color:rgba(240, 248, 255, 0.842);
-    /* sombra pra direita, sombra pra baixo, fundo, cor  */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 20px;    
 }
 
+/*tamanho e posicionamento*/
 li{
     text-align: left;
     font-size: medium;
@@ -27,29 +27,25 @@ p{
     font-size: 16px;
 }
 
+/*cor, sombra e fundo da classe genero*/
 .genero{
     background-color: rgba(14, 62, 102, 0.705);
     color:rgba(240, 248, 255, 0.842);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/*
-.imagemFundo{
-    background-image: url(../img/paginas/backgourndLivrosOutrono.jpeg);
-}*/
 
+/*definindo as propriedades do botao e animação q ele vai receber */
 button{
     transition-property: background-color;
     transition-duration: 2s;
     background-color: aqua;   
-}
-
-button{
     animation-name: botao;
     animation-duration: 5s;
     animation-delay: 0s;
     animation-iteration-count: infinite;  
 }
 
+/*animação do botao*/
 @keyframes botao {
     0% {
         background-color: rgb(104, 211, 243);

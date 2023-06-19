@@ -1,25 +1,9 @@
+//js do dark mode
+
+//nome da função
 function toggleDarkMode() {
-    var body = document.body;
+    var body = document.body; //varievel e o body
 
     // Adiciona ou remove a classe 'dark-mode' do elemento body
-    body.classList.toggle('dark-mode');
+    body.classList.toggle('dark-mode'); //mudando para o modo dark
 }
-
-
-/*var ordemPressionada = [];
-
-document.addEventListener('keydown', function(event) {
-  var tecla = event.key.toLowerCase();
-  ordemPressionada.push(tecla);
-
-  if (ordemPressionada.join('') === 'mágialivros') {
-    exibirMensagem();
-  }
-});
-
-function exibirMensagem() {
-  var mensagem = document.createElement('div');
-  mensagem.id = 'mensagem';
-  mensagem.textContent = 'Mensagem secreta!';
-  document.body.appendChild(mensagem);
-}*/

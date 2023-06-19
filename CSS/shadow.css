@@ -1,3 +1,4 @@
+/*definindo as propriedades do header*/
 header {
     text-decoration: none; /* Remove o sublinhado */
     color: white; /* Define a cor da fonte como branca */
@@ -19,6 +20,7 @@ header a {
     color: white; /* Define a cor da fonte como branca */
 }
 
+/*definindo as propriedades do footer*/
 footer{
     background-image: url(../img/SHADOW/footer.jpeg);
     margin-top: 100px;
@@ -29,7 +31,6 @@ footer{
     text-align: center;
     text-decoration: none; /* Remove o sublinhado */
     color: red; /* Define a cor da fonte, por exemplo, vermelho */
-   
 }
 footer a:hover{
     color: white;
@@ -40,6 +41,7 @@ footer a {
     color: white; /* Define a cor da fonte como branca */
 }
 
+/*definindo as propriedades do body*/
 body {
     background-image: url(../img/SHADOW/background.jpeg);
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -47,8 +49,8 @@ body {
     background-attachment: fixed; /* Fixa a imagem para que ela não role com a página */
     background-blend-mode: overlay; /* Mescla a cor de fundo com a imagem */
   }
-  
-
+ 
+ /*definindo as propriedades das classes criadas*/ 
 .primeira{
     margin-top: 150px;
     background-color: rgba(148, 147, 147, 0.514);
@@ -84,6 +86,7 @@ body {
     margin-left: 800px;
 }
 
+/*definindo a propriedade do video do ytb*/
 iframe{
     margin-top: 90px;
     margin-left: 800px;

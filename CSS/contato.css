@@ -1,3 +1,4 @@
+/*organizando a tavela, bordas, cores e alinhamento*/
 table{
     border: 5px black solid;
     border-spacing: 10px; /* espaçamento da borda */
@@ -5,12 +6,13 @@ table{
     background-color: rgba(207, 112, 216, 0.719);
 }
 
+
 td {
     padding: 10px; /*  espaçamento interno */
   }
 
 h1{
-    text-align: center;
+    text-align: center; /*centralizando*/
 }
 
 body{
@@ -20,6 +22,7 @@ body{
     background-attachment: fixed; /*n se mexer ao mover*/
 }
 
+/*organizando o footer, usando a animação rgb*/
 footer{
     animation-name: rgb;
     animation-duration: 7s;
@@ -32,9 +35,10 @@ footer{
 }
 
 header{
-    opacity: 80%;
+    opacity: 80%;/*opacidade do header*/
 }
 
+/*tamanho da fonte e posicionamenot do h3*/
 h3{
     font-size: 40px;
     text-align: center;
