@@ -83,3 +83,20 @@ body {
     margin-top: 90px;
     margin-left: 800px;
 }
+
+iframe{
+    margin-top: 90px;
+    margin-left: 800px;
+}
+
+.quinta{
+    margin-top: 200px;
+    background-color: rgba(148, 147, 147, 0.514);
+    position: absolute;
+    margin-left: 82%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.829);
+    text-shadow: 4px 4px 10px rgb(12, 12, 12);
+    font-size: 17px;
+}

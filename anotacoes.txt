@@ -1,17 +1,8 @@
-button:hover{
-    transition-property: background-color;
-    transition-duration: 2s;
-    background-color: aqua;
-}
-
-
 colcoar dark mode no sobre
 ● Vídeo: Seu site deve apresentar ao menos 1 vídeo, seja local ou importado de sites como o YouTube. 
 ● Seu site deve apresentar comentarios
 ● Responsividade: Seu site deve ser responsivo, funcionando para dispositivos de diferentes tamanhos. Considere o menor tamanhopossível como 200px. (caso não seja possível, defina um tamanho mínimoe evite que o site quebre com menos que isso...) 
 --> qualquer coisa faz os tamanhos dos pixeis dentro de cada media
-Fazer um joguinho usando js
-
 
 TAMANHO DA TELA DA SALA 
 1109px 625px
@@ -20,20 +11,9 @@ fazer espaçamento no footer e no header, tirar o &nsbp pq precisa da Responsivi
 
 Na Responsividade começa do menor para o maior, o maior sempre no final para ser o ultimo a rodar
 
-//isplay nas imagens pra mostrar sem espaço 
-//colocar o dark mode nas outras
-
-
-
-
-
-
-
-
-
-
-
-
+CSS inline no index aprox na linha 222
+Grid no css de acotar e css
+flex no css de cc 
 
 //Colocar na pasta de comentários (deixar salvo no final) 
 
@@ -41,5 +21,4 @@ Na Responsividade começa do menor para o maior, o maior sempre no final para se
          console.log("Iteração"), i < lista_paragrafos.length; 
          i++, console.log("Fim do for")) {
                     
-        
 }
