@@ -34,22 +34,22 @@
     <script>
    
       var objeto = document.getElementById('objeto'); // pega elemento do objeto do jogo pelo id objeto da div
-      var isMouseDown = false;//controlar se o botão do mouse está pressionado ou não
+      var BotaoMouse = false;//controlar se o botão do mouse está pressionado ou não
 
       // Evento para quando o botão do mouse é pressionado
       objeto.addEventListener('mousedown', function() {
-        isMouseDown = true; // ativar que esta pressionado
+        BotaoMouse = true; // ativar que esta pressionado
       });
 
       // Evento para quando o botão do mouse é solto
       objeto.addEventListener('mouseup', function() {
-        isMouseDown = false; //voltar a ser false
+        BotaoMouse = false; //voltar a ser false
       });
 
       // Evento para quando o mouse é movido para cima do objeto
       objeto.addEventListener('mousemove', function(event) {
         // Verifica se o botão do mouse está pressionado
-        if (isMouseDown) {
+        if (BotaoMouse) {
           // Obtém as coordenadas do mouse em relação à janela do navegador
           var mouseX = event.clientX;
           var mouseY = event.clientY;
