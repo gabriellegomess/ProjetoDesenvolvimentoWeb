@@ -75,7 +75,7 @@ p{
 
 /*posicionamento das imagens*/
 .imagens{
-    display: grid;
+    display: grid; /*direcionar as imgs */
     grid-template-columns: repeat(1, 5fr); /* Alterado para 5 colunas */
     grid-gap: 10px;
     height: 250px;
@@ -83,13 +83,13 @@ p{
     margin-left: 10px;
 }
 .item {
-    display: flex;
+    display: flex; /* posição da imagem (esquerda)*/
     align-items: left;
     margin-bottom: 10px;
   }
 
 .cc {
-    display: grid;
+    display: grid;/*direcionar as imgs Layout */
     grid-template-columns: repeat(4, 1fr); /* Quatro colunas com largura igual */
     grid-gap: 10px;
     grid-gap: 10px;

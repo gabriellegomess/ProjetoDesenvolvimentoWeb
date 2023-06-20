@@ -52,11 +52,63 @@
         background-color: rgb(245, 233, 212);
     }
 }
+
+/*Organizando o dark mode, mudando as configurações de cores de texto de fundo e as imagens*/
+
+.dark-mode body{
+    background-color: rgb(0, 0, 0);
+    color:rgb(240, 229, 229);
+    background-color: black;
+    color:rgb(240, 229, 229);
+    background-image: url(../img/paginas/fundoSobre.jpeg);
+    background-size: cover; /*tamhno*/
+    background-repeat: no-repeat; /*n repetir ao descer*/
+    background-attachment: fixed; /*n se mexer ao mover*/
+}
+
+.dark-mode div{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.979);
+    color:rgb(240, 229, 229);
+    /* sombra pra direita, sombra pra baixo, fundo, cor  */
+    text-shadow: 2px 2px 4px rgba(247, 242, 242, 0.932);
+    border-radius: 20px;   
+}
+
+.dark-mode header{
+    background-color: rgb(139, 109, 223);
+    color:rgb(240, 229, 229);
+}
+
+.dark-mode main{
+    background-color: rgb(0, 0, 0);
+    color:rgb(240, 229, 229);
+    background-color: black;
+    color:rgb(240, 229, 229);
+    background-image: url(../img/paginas/fundoSobre.jpeg);
+    background-size: cover; /*tamhno*/
+    background-repeat: no-repeat; /*n repetir ao descer*/
+    background-attachment: fixed; /*n se mexer ao mover*/
+}
+
+.dark-mode body{
+    background-color: rgb(0, 0, 0);
+    color:rgb(240, 229, 229);
+    background-color: black;
+    color:rgb(240, 229, 229);
+    background-image: url(../img/paginas/fundoSobre.jpeg);
+    background-size: cover; /*tamhno*/
+    background-repeat: no-repeat; /*n repetir ao descer*/
+    background-attachment: fixed; /*n se mexer ao mover*/
+}
+
+
 </style>
 
 
 </head>
-<body>
+<body class="corpo dark-mode">
 
 <!--importando o js da pagina-->
     <script src="../JS/sobre.js"> </script>
@@ -141,6 +193,7 @@
     </footer>
 
     <!--importando o js da pagina-->
+<button onclick="toggleDarkMode()">! ALTERNAR MODO !</button>
 <script src="../JS/sobre.js"> </script>
 
     <!--organizando o script interno da pagina, no qual tem as mensagens secretas-->
@@ -159,6 +212,8 @@
             });
         });
     </script>
+
+
 
 
 </body>

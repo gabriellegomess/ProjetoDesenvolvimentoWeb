@@ -162,7 +162,7 @@
   
   .imagens {
     /* posicionamento das img */
-    display: grid;
+    display: grid; /* organizar o layout das img */
     grid-template-columns: repeat(1, 5fr); /* Alterado para 5 colunas */
     grid-gap: 10px;
     /* largura e altura das img */
@@ -190,7 +190,7 @@
   
   /* ordem dos livros */
   .item {
-    display: flex;
+    display: flex; /*direcionar onde vai ficar */
     align-items: left;
     margin-bottom: 10px;
   }
