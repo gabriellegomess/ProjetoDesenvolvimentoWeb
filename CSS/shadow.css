@@ -64,7 +64,7 @@ body {
 }
 
 .segunda{
-    margin-top: 700px;
+    margin-top: 600px;
     background-color: rgba(148, 147, 147, 0.514);
     position: absolute;
     margin-left: 65%;
@@ -77,19 +77,19 @@ body {
 
 .imagem{
     margin-top: 900px;
-    margin-left: 900px;
+    margin-left: 500px;
 
 }
 
 .ordem{
     margin-top: 90px;
-    margin-left: 800px;
+    margin-left: 400px;
 }
 
 /*definindo a propriedade do video do ytb*/
 iframe{
     margin-top: 90px;
-    margin-left: 800px;
+    margin-left: 500px;
 }
 
 .quinta{
